@@ -1,0 +1,32 @@
+.welcome-menu{
+  grid-area: menu;
+  background-color: rgb(83, 83, 83);
+  width: 100%;
+  padding: 1vw 0 0 0;
+  opacity: 0.5;
+}
+.welcome-menu{
+   ul{
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+   }
+}
+.welcome-menu{
+  li{
+    float: left;
+    padding: 1vw 2vw 2vw 8vw;
+  }
+}
+.welcome-menu li a{
+  display: block;
+  text-align: center;
+  text-decoration:none;
+  color: white;
+  opacity:1;
+}
+.welcome-wrapper li a:hover{
+   /* border-bottom: 1px solid rgb(121, 74, 160); */
+  opacity: 0.7;
+  font-weight: bold;
+}

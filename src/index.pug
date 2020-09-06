@@ -1,0 +1,111 @@
+doctype html
+html(lang="en")
+  head
+    title My CV Replica
+    meta(content="Simple pug (jade) starter aimed to quickly deliver HTML & CSS projects" name="description")
+    link(rel="stylesheet" href="style.css")
+
+
+  body
+    //- pre=JSON.stringify(data.menu.content, null, 2)
+    .welcome-wrapper#welcome-jump
+      .logo.icon__github
+        span.logo-text Valentina
+      .welcome-menu
+        label#menu-btn.icon__menu(
+          for="toggleMenu"
+        )
+          span.icon-space=data.menu.title
+        input(
+          type="checkbox"
+          id="toggleMenu"
+        )
+        ul#menu-content
+          //- each menu in data.menu.content
+          //-   li
+          //-     a(href=`#${menu.jumpTo}-jump`)
+          //-       span(class=`icon__${menu.icon}`)
+          //-         span.logo-text=menu.text
+
+      .welcome-message
+        h1 Hello! 
+        h1 I am 
+          span.title-color Valentina G Vanu
+          |,
+        #dev-border
+          .title-border 
+            h2 Junior Web Developer | Web Geek
+        p Projects             
+          b and other pretty stuff
+      .social-media
+        button.pretty-disc.icon__github
+        button.pretty-disc.icon__linkedin
+        button.pretty-disc.icon__instagram
+        button.pretty-disc.icon__facebook
+        br
+      .download-cv
+          .download-cv-btn DOWNLOAD CV
+          span.download-cv-btn | 
+          .download-cv-btn ENTER PROFILE
+          //- fix arrow down
+      .arrow
+        a(href="#about-me-jump")
+          button.pretty-disc.icon__circle-down
+    .about-me-wrapper#about-me-jump
+      .about-me-title
+        h1 ABOUT ME
+      .about-me-story
+        .about-title My Story
+        .about-me-text
+          p Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+          | sagittis lorem vel, efficitur tristique tortor. Duis posuere
+          | et ligula sed lobortis. Sed id porta metus. Phasellus nec
+          | convallis odio, vel laoreet enim. In quis risus sem.
+          br
+          | Nam tempor finibus sodales. Nulla nulla turpis, fringilla
+          | sagittis lorem vel, efficitur tristique tortor. Duis posuere
+          | et ligula sed lobortis. Sed id porta metus. Phasellus nec
+          | convallis odio, vel laoreet enim. In quis risus sem.
+        
+        .about-info
+          .about-title Personal Info
+          .about-list
+            ul
+              li Name: Valentina Georgiana Vanu
+              li Age: 26 Years old
+              li Phone: +44 7940 249 154
+              li E-mail:
+                span.purple-email vanuvalentina16@gmail.com
+              li Address: Uk London 20 Crossharbour Street
+      .hobbies-carousel-wrapper
+        .hobby-title My Hobbies
+        .hobby-carousel
+          ul
+            li.hobbyCard
+              a(href="#") Coding
+                .icon-align.icon__code
+            li.hobbyCard
+              a(href="#") Games
+                .icon-align.icon__gamepad
+            li.hobbyCard
+              a(href="#") Travel
+                .icon-align.icon__travel
+            li.hobbyCard
+              a(href="#") Music
+                .icon-align.icon__headphones
+            li.hobbyCard
+              a(href="#") Fashion
+                .icon-align.icon__gift
+            li.hobbyCard
+              a(href="#") Pet lover
+                .icon-align.icon__paw
+                //- I just gave up on my carousel :(
+      .arrow
+        a(href="#welcome-jump")
+          button.pretty-disc.icon__circle-up
+
+  //- script(src="assets/js/script.js")
+//- The style.css is at the bottom so it doesn't
+//- block the loading of assets
+//- if config.entry.css.external
+//-   link(rel="stylesheet", href="/style.css")

@@ -1,0 +1,35 @@
+{
+  "title": "menu",
+  "content": [
+    {
+      "jumpTo": "welcome",
+      "icon": "home",
+      "text": "Home"
+    },
+    {
+      "jumpTo": "about-me",
+      "icon": "about-me",
+      "text": "About"
+    },
+    {
+      "jumpTo": "resume",
+      "icon": "resume",
+      "text": "Resume"
+    },
+    {
+      "jumpTo": "skills",
+      "icon": "skills",
+      "text": "Skills"
+    },
+    {
+      "jumpTo": "works",
+      "icon": "works",
+      "text": "Works"
+    },
+    {
+      "jumpTo": "contact",
+      "icon": "contact",
+      "text": "Contact"
+    }
+  ]
+}

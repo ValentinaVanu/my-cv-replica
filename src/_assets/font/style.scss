@@ -1,0 +1,134 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?4ys0sl') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?4ys0sl') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?4ys0sl##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon__"], [class*=" icon__"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon__paw {
+  &:before {
+    content: $icon__paw; 
+  }
+}
+.icon__gamepad {
+  &:before {
+    content: $icon__gamepad; 
+  }
+}
+.icon__headphones {
+  &:before {
+    content: $icon__headphones; 
+  }
+}
+.icon__gift {
+  &:before {
+    content: $icon__gift; 
+  }
+}
+.icon__travel {
+  &:before {
+    content: $icon__travel; 
+  }
+}
+.icon__code {
+  &:before {
+    content: $icon__code; 
+  }
+}
+.icon__circle-down {
+  &:before {
+    content: $icon__circle-down; 
+  }
+}
+.icon__circle-up {
+  &:before {
+    content: $icon__circle-up; 
+  }
+}
+.icon__cancel {
+  &:before {
+    content: $icon__cancel; 
+  }
+}
+.icon__menu {
+  &:before {
+    content: $icon__menu; 
+  }
+}
+.icon__download {
+  &:before {
+    content: $icon__download; 
+  }
+}
+.icon__github {
+  &:before {
+    content: $icon__github; 
+  }
+}
+.icon__linkedin {
+  &:before {
+    content: $icon__linkedin; 
+  }
+}
+.icon__instagram {
+  &:before {
+    content: $icon__instagram; 
+  }
+}
+.icon__facebook {
+  &:before {
+    content: $icon__facebook; 
+  }
+}
+.icon__contact {
+  &:before {
+    content: $icon__contact; 
+  }
+}
+.icon__works {
+  &:before {
+    content: $icon__works; 
+  }
+}
+.icon__skills {
+  &:before {
+    content: $icon__skills; 
+  }
+}
+.icon__resume {
+  &:before {
+    content: $icon__resume; 
+  }
+}
+.icon__about-me {
+  &:before {
+    content: $icon__about-me; 
+  }
+}
+.icon__home {
+  &:before {
+    content: $icon__home; 
+  }
+}
+

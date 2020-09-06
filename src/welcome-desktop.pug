@@ -1,0 +1,53 @@
+doctype html
+html(lang="en")
+  head
+    title My CV Replica
+    meta(content="Simple pug (jade) starter aimed to quickly deliver HTML & CSS projects" name="description")
+    link(rel="stylesheet" href="style.css")
+
+  body
+    .welcome-wrapper.grid.column
+      .welcome-menu
+        ul
+          li
+            a(href='#')
+              .dropdown-content.icon__download Home
+          li
+            a(href='#')
+              .icon__about-me About
+          li
+            a(href='#')
+              .icon__resume Resume
+          li
+            a(href='#')
+              .icon__skills Skills
+          li
+            a(href='#')
+              .icon__works Works
+          li
+            a(href='#')
+              .icon__contact Contact
+      .welcome-message
+        h1 Hello! 
+        h1 I am 
+          span.title-color Valentina G Vanu
+          |,
+        #dev-border
+          h2 
+            span.title-border Junior Web Developer | Web Geek
+        p Projects             
+          b and other pretty stuff
+      .social-media
+        button.pretty-disc.icon__github G
+        button.pretty-disc.icon__linkedin L
+        button.pretty-disc.icon__instagram I
+        button.pretty-disc.icon__facebook F
+        br
+      .download-cv
+          .download-cv-btn DOWNLOAD CV
+          span.download-cv-btn | 
+          .download-cv-btn ENTER PROFILE
+//- The style.css is at the bottom so it doesn't
+//- block the loading of assets
+//- if config.entry.css.external
+//-   link(rel="stylesheet", href="/style.css")
